@@ -1,7 +1,6 @@
 /**
  * 
  */
-package com.flatironschool.javacs;
 
 import static org.junit.Assert.assertThat;
 import static org.hamcrest.CoreMatchers.*;
@@ -11,6 +10,7 @@ import java.util.List;
 
 import org.junit.Test;
 
+
 /**
  * @author downey
  *
@@ -18,7 +18,7 @@ import org.junit.Test;
 public class ListClientExampleTest {
 
 	/**
-	 * Test method for {@link com.flatironschool.javacs.ListClientExample}.
+	 * Test method for {@link ListClientExample}.
 	 */
 	@Test
 	public void testListClientExample() {

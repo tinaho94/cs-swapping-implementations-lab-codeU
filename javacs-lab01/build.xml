@@ -73,7 +73,7 @@
         <junit fork="yes" printsummary="withOutAndErr">
             <formatter type="xml"/>
             <formatter type="plain" usefile="false"/>
-            <test name="com.flatironschool.javacs.ListClientExampleTest" todir="${junit.output.dir}"/>
+            <test name="ListClientExampleTest" todir="${junit.output.dir}"/>
             <classpath refid="JavaCS.classpath"/>
         </junit>
     </target>
@@ -122,7 +122,7 @@
         </junit>
     </target>
     <target name="ListClientExample">
-        <java classname="com.flatironschool.javacs.ListClientExample" failonerror="true" fork="yes">
+        <java classname="ListClientExample" failonerror="true" fork="yes">
             <classpath refid="JavaCS.classpath"/>
         </java>
     </target>
